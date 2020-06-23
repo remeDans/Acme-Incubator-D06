@@ -1,0 +1,31 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookeeper.accounting-record.list.label.title = title
+bookeeper.accounting-record.list.label.status =  status
+bookeeper.accounting-record.list.label.creationMoment =  creation Moment
+bookeeper.accounting-record.list.label.body = body
+
+bookeeper.accounting-record.form.label.title = title
+bookeeper.accounting-record.form.label.status =  status
+bookeeper.accounting-record.form.label.creationMoment =  creation Moment
+bookeeper.accounting-record.form.label.body = body
+
+bookeeper.accounting-record.form.label.status.--- = ----------
+bookeeper.accounting-record.form.label.status.DRAFT = DRAFT
+bookeeper.accounting-record.form.label.status.PUBLISHED = PUBLISHED
+
+bookkeeper.accounting-record.form.button.update = Update
+bookkeeper.accounting-record.form.button.create = Create
+
+bookeeper.accounting-record.form.button.return = Return
+
+bookkeeper.accounting-record.error.isSpam = Is Spam
+

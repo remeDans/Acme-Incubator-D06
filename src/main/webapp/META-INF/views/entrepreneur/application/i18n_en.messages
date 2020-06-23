@@ -1,0 +1,42 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+entrepreneur.application.list.label.ticker = ticker
+entrepreneur.application.list.label.statement = Statement
+entrepreneur.application.list.label.creationMoment = creationMoment
+entrepreneur.application.list.label.status = status
+entrepreneur.application.list.label.justification = justification
+entrepreneur.application.list.label.investmentMoneyOffer = investmentMoneyOffer
+
+entrepreneur.application.form.label.ticker = ticker
+entrepreneur.application.form.label.statement = Statement
+entrepreneur.application.form.label.creationMoment = creationMoment
+entrepreneur.application.form.label.status = status
+entrepreneur.application.form.label.justification = justification
+entrepreneur.application.form.label.investmentMoneyOffer = investmentMoneyOffer
+
+entrepreneur.application.form.label.status.accepted = ACCEPTED
+entrepreneur.application.form.label.status.rejected = REJECTED
+entrepreneur.application.form.label.status.pending = PENDING
+	
+entrepreneur.application.form.button.return = Return
+
+entrepreneur.application.form.label.investor = Investor
+entrepreneur.application.form.label.investor.username = username
+entrepreneur.application.form.label.investor.identity.name = name
+entrepreneur.application.form.label.investor.identity.surname = surname
+entrepreneur.application.form.label.investor.identity.email = email
+
+entrepreneur.application.form.button.update = Accept or reject application
+
+
+entrepreneur.application.error.rejected.fill.justification= Rejected applications must have a justification
+entrepreneur.application.error.isSpam = Is Spam

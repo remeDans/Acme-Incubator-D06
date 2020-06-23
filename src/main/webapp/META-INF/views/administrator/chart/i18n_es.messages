@@ -1,0 +1,15 @@
+administrator.chart = Gráfico
+administrator.chart.totalNumberTechnologiesGroupByActivitySector = Número total de tecnologías agrupadas por sector de actividad:
+administrator.chart.ratioOpensourceTechnologiesVersusClosedsourceTechnologies =  Proporción de tecnologías de código abierto versus tecnologías de código cerrado:
+administrator.chart.totalNumberToolGroupByActivitySector = Número total de herramientas agrupadas por sector de actividad:
+administrator.chart.ratioOpensourceToolsVersusClosedsourceTools = Proporción de herramientas de código abierto versus herramientas de código cerrado:
+
+
+administrator.chart.form.label.totalTechnologyPerSector = total de tecnologías por cada sector:
+administrator.chart.form.label.totalToolPerSector = total de herramientas por cada sector:
+
+
+administrator.chart.chart5 = Relación de rondas de inversión agrupadas por tipo:
+administrator.chart.chart6 = Relación de aplicaciones agrupadas por estado:
+
+administrator.chart.form.button.return = Atrás

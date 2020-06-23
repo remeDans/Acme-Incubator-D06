@@ -1,0 +1,40 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.overture.list.label.title = Title
+administrator.overture.list.label.creationMoment = creationMoment
+administrator.overture.list.label.deadline = Deadline
+administrator.overture.list.label.paragraphsDescription= paragraphsDescription
+administrator.overture.list.label.intervalMoney = intervalMoney
+administrator.overture.list.label.minIntervalMoney = min interval Money
+administrator.overture.list.label.maxIntervalMoney = max interval Money
+administrator.overture.list.label.contactEmail = contactEmail
+
+
+administrator.overture.form.label.title = Title
+administrator.overture.form.label.creationMoment = creationMoment
+administrator.overture.form.label.deadline = Deadline
+administrator.overture.form.label.paragraphsDescription= paragraphsDescription
+administrator.overture.form.label.intervalMoney = intervalMoney
+administrator.overture.form.label.minIntervalMoney = min interval Money
+administrator.overture.form.label.maxIntervalMoney = max interval Money
+administrator.overture.form.label.contactEmail = contactEmail
+
+
+administrator.overture.form.button.return = Return
+
+administrator.overture.form.button.create = Create
+administrator.overture.form.button.update = Update
+administrator.overture.form.button.delete = Delete
+
+
+administrator.overture.error.currency.euro = The system only accepts euros as currency
+administrator.overture.error.Amount = The max interval money must be greater than the max interval money.
+administrator.overture.form.error.deadline = The date has to be future

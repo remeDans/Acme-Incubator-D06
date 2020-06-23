@@ -1,0 +1,38 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+patron.banner.list.label.picture = picture
+patron.banner.list.label.slogan = slogan
+patron.banner.list.label.targetUrl = targetUrl
+patron.banner.list.label.creditcard = creditcard
+
+patron.banner.form.label.picture = picture
+patron.banner.form.label.slogan = slogan
+patron.banner.form.label.targetUrl = targetUrl
+patron.banner.form.label.creditcard = creditcard
+	
+patron.banner.form.button.return = Return
+
+patron.banner.form.button.create = Create
+patron.banner.form.button.update = Update
+patron.banner.form.button.delete = Delete
+ 
+patron.banner.form.button.creditCard.create = Create CreditCard
+patron.banner.form.button.creditCard.show = Show CreditCard
+
+
+patron.creditCard.form.label.holderName = holder name
+patron.creditCard.form.label.number = number
+patron.creditCard.form.label.brand = brand
+patron.creditCard.form.label.monthExpired = monthExpired
+patron.creditCard.form.label.yearExpired = yearExpired
+patron.creditCard.form.label.CVV = CVV
+
+patron.banner.error.isSpam = Is Spam

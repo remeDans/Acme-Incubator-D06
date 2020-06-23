@@ -1,0 +1,48 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.challenge.list.label.title = Title
+administrator.challenge.list.label.description = Description
+administrator.challenge.list.label.deadline = Deadline
+administrator.challenge.list.label.goal= Goal
+
+
+administrator.challenge.list.label.goalExpertLevel = goal Expert Level
+administrator.challenge.list.label.rewardExpertLevel = reward Expert Level
+administrator.challenge.list.label.goalAverageLevel = goal Average Level
+administrator.challenge.list.label.rewardAverageLevel = reward Average Level
+administrator.challenge.list.label.goalRookieLevel = goal Rookie Level
+administrator.challenge.list.label.rewardRookieLevel = reward Rookie Level
+
+
+	
+administrator.challenge.form.label.title = Title
+administrator.challenge.form.label.description = Description
+administrator.challenge.form.label.deadline = Deadline
+administrator.challenge.form.label.goal=Goal
+
+
+administrator.challenge.form.label.goalExpertLevel = goal Expert Level
+administrator.challenge.form.label.rewardExpertLevel = reward Expert Level
+administrator.challenge.form.label.goalAverageLevel = goal Average Level
+administrator.challenge.form.label.rewardAverageLevel = reward Average Level
+administrator.challenge.form.label.goalRookieLevel = goal Rookie Level
+administrator.challenge.form.label.rewardRookieLevel = reward Rookie Level
+
+
+administrator.challenge.form.button.return = Return
+
+administrator.challenge.form.button.create = Create
+administrator.challenge.form.button.update = Update
+administrator.challenge.form.button.delete = Delete
+
+administrator.challenge.error.currency.euro = The system only accepts euros as currency
+administrator.challenge.error.Amount = The expert prize must be greater than the average prize. The average prize has to be greater than the rookie prize
+administrator.challenge.form.error.deadline = The date must be at least one month in future

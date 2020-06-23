@@ -1,0 +1,19 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.bookkeeper.form.title.create = Become an Bookkeeper
+authenticated.bookkeeper.form.title.update = Update Bookkeeper data
+
+authenticated.bookkeeper.form.label.firmName = Firm Name: 
+authenticated.bookkeeper.form.label.responsibilityStatement = Responsibility Statement:
+
+authenticated.bookkeeper.form.button.create = Register
+authenticated.bookkeeper.form.button.update = Update
+authenticated.bookkeeper.form.button.return = Return

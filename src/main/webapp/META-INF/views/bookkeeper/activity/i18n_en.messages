@@ -1,0 +1,23 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookeeper.activity.list.label.title = title
+bookeeper.activity.list.label.startMoment =  start Moment
+bookeeper.activity.list.label.endMoment =  end Moment
+bookeeper.activity.list.label.budget = budget
+
+bookeeper.activity.form.label.title = title
+bookeeper.activity.form.label.startMoment =  start Moment
+bookeeper.activity.form.label.endMoment =  end Moment
+bookeeper.activity.form.label.budget = budget
+
+
+bookeeper.activity.form.button.return = Return
+

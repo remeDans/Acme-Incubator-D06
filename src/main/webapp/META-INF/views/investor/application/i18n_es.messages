@@ -1,0 +1,41 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+investor.application.list.label.ticker = ticker
+investor.application.list.label.statement = Statement
+investor.application.list.label.creationMoment = Fecha de creación
+investor.application.list.label.status = Estado
+investor.application.list.label.justification = justificación
+investor.application.list.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+investor.application.form.label.ticker = ticker
+investor.application.form.label.statement = Statement
+investor.application.form.label.creationMoment = Fecha de creación
+investor.application.form.label.status = Estado
+investor.application.form.label.justification = justificación
+investor.application.form.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+investor.application.form.button.create = Crear
+	
+investor.application.form.button.return = Atrás
+
+
+investor.application.form.label.investor = Inversor
+investor.application.form.label.investor.username = nombre de usuario
+investor.application.form.label.investor.identity.name = nombre
+investor.application.form.label.investor.identity.surname = apellidos
+investor.application.form.label.investor.identity.email = email
+
+investor.application.form.button.investmentRound = Ronda de inversión
+
+investor.application.form.error.ticker-unique = El ticker no puede ser duplicado
+entrepreneur.application.error.currency.euro = El sistema solo acepta como moneda los euros
+investor.application.error.isSpam = Es Spam

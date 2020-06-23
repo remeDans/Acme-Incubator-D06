@@ -1,0 +1,36 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+bookeeper.application.list.label.ticker = ticker
+bookeeper.application.list.label.statement = Statement
+bookeeper.application.list.label.creationMoment = Fecha de creación
+bookeeper.application.list.label.status = Estado
+bookeeper.application.list.label.justification = justificación
+bookeeper.application.list.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+bookeeper.application.form.label.ticker = ticker
+bookeeper.application.form.label.statement = Statement
+bookeeper.application.form.label.creationMoment = Fecha de creación
+bookeeper.application.form.label.status = Estado
+bookeeper.application.form.label.justification = justificación
+bookeeper.application.form.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+	
+bookeeper.application.form.button.return = Atrás
+
+
+bookeeper.application.form.label.investor = Inversor
+bookeeper.application.form.label.investor.username = nombre de usuario
+bookeeper.application.form.label.investor.identity.name = nombre
+bookeeper.application.form.label.investor.identity.surname = apellidos
+bookeeper.application.form.label.investor.identity.email = email
+
+bookeeper.application.form.button.investmentRound = Ronda de inversión

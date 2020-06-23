@@ -1,0 +1,11 @@
+authenticated.participant.form.label.username = Nombre de usuario
+
+authenticated.participant.form.error.existent-participant = Este usuario ya participa en este tema
+authenticated.participant.form.error.inexistent-user = Este nombre de usuario no existe
+authenticated.participant.form.error.delete-creator = No puedes borrar al creador del hilo
+
+authenticated.participant.form.button.create = Crear
+authenticated.participant.form.button.delete = Borrar
+authenticated.participant.form.button.return = Volver
+
+authenticated.participant.list.label.username = Nombre de usuario

@@ -1,0 +1,31 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.activity.list.label.title = Título
+entrepreneur.activity.list.label.startMoment =  Fecha de inicio
+entrepreneur.activity.list.label.endMoment =  Fecha de fin
+entrepreneur.activity.list.label.budget = presupuesto
+
+entrepreneur.activity.form.label.title = Título
+entrepreneur.activity.form.label.startMoment =  Fecha de inicio
+entrepreneur.activity.form.label.endMoment =  end Moment
+entrepreneur.activity.form.label.budget = presupuesto
+
+entrepreneur.activity.form.button.create = Añadir actividad
+entrepreneur.activity.form.button.delete = Eliminar actividad
+entrepreneur.activity.form.button.update = Editar actividad
+
+entrepreneur.activity.form.button.return = Atrás
+
+entrepreneur.activity.error.isSpam = Es Spam
+entrepreneur.activity.error.currency.euro = El sistema solo acepta como moneda los euros
+entrepreneur.activity.form.error.startMoment = La fecha tiene que ser posterior a la fecha límite de la ronda de inversión
+entrepreneur.activity.form.error.endMoment = La fecha tiene que ser mayor a la fecha de comienzo
+entrepreneur.activity.error.budget = La suma de los presupuestos no puede ser mayor que la cantidad de dinero de la ronda de inversión

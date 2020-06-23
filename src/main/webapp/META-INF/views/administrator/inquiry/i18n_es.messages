@@ -1,0 +1,39 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.inquiry.list.label.title = Título
+administrator.inquiry.list.label.creationMoment = fecha de creación
+administrator.inquiry.list.label.deadline = Deadline
+administrator.inquiry.list.label.paragraphsDescription= descripción
+administrator.inquiry.list.label.intervalMoney = intervalo de dinero
+administrator.inquiry.list.label.minIntervalMoney = minimo intervalo de dinero
+administrator.inquiry.list.label.maxIntervalMoney = máximo intervalo de dinero
+administrator.inquiry.list.label.contactEmail = contactEmail
+
+
+administrator.inquiry.form.label.title = Título
+administrator.inquiry.form.label.creationMoment = fecha de creación
+administrator.inquiry.form.label.deadline = Deadline
+administrator.inquiry.form.label.paragraphsDescription= descripción
+administrator.inquiry.form.label.intervalMoney = intervalo de dinero
+administrator.inquiry.form.label.minIntervalMoney = minimo intervalo de dinero
+administrator.inquiry.form.label.maxIntervalMoney = máximo intervalo de dinero
+administrator.inquiry.form.label.contactEmail = contactEmail
+
+
+administrator.inquiry.form.button.return = Atrás
+
+administrator.inquiry.error.currency.euro = El sistema solo acepta como moneda los euros
+administrator.inquiry.error.Amount = El máximo intervalo de dinero tiene que ser  mayor que el minimo intervalo de dinero. 
+administrator.inquiry.form.error.deadline = La fecha tiene que ser futura
+
+administrator.inquiry.form.button.create = Crear
+administrator.inquiry.form.button.update = Editar
+administrator.inquiry.form.button.delete = Eliminar

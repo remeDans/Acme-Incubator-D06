@@ -1,0 +1,7 @@
+
+
+administrator.dashboard.form.title.applications-per-day.title = Number of applications by status during the last fifteen days
+
+administrator.dashboard.form.label.application-pending = PENDING
+administrator.dashboard.form.label.application-accepted = ACCEPTED
+administrator.dashboard.form.label.application-rejected = REJECTED

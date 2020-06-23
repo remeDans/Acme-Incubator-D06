@@ -1,0 +1,11 @@
+authenticated.bookkeeper-request.form.label.firmName = Firma
+authenticated.bookkeeper-request.form.label.responsibilityStatement = Declaración de responsabilidad
+authenticated.bookkeeper-request.form.label.status = Estado
+authenticated.bookkeeper-request.form.label.status.pending = Pendiente
+authenticated.bookkeeper-request.form.label.status.accepted = Aceptada
+authenticated.bookkeeper-request.form.label.status.rejected = Rechazada
+
+authenticated.bookkeeper-request.form.error.noMorePending = Aun tienes una petición pendiente
+
+authenticated.bookkeeper-request.form.button.create = Registrarse
+authenticated.bookkeeper-request.form.button.return = Volver

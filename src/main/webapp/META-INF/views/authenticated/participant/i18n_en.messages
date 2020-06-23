@@ -1,0 +1,11 @@
+authenticated.participant.form.label.username = Username
+
+authenticated.participant.form.error.existent-participant = This user is already involved in this thread
+authenticated.participant.form.error.inexistent-user = This username does not exist
+authenticated.participant.form.error.delete-creator = You can not delete the creator of the thread
+
+authenticated.participant.form.button.create = Create
+authenticated.participant.form.button.delete = Delete
+authenticated.participant.form.button.return = Return
+
+authenticated.participant.list.label.username = Username

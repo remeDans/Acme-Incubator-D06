@@ -1,0 +1,35 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+administrator.technology-record.form.label.title = Título
+administrator.technology-record.form.label.activitySector = Actividad del Sector
+administrator.technology-record.form.label.nameInventor = Nombre del inventor
+administrator.technology-record.form.label.description = Descripción
+administrator.technology-record.form.label.webSite = WebSite
+administrator.technology-record.form.label.contactEmail = Email de contacto
+administrator.technology-record.form.label.openSource = OpenSource ??
+administrator.technology-record.form.label.stars = Estrellas
+	
+administrator.technology-record.form.button.return = Atrás
+
+
+administrator.technology-record.list.label.title = Título
+administrator.technology-record.list.label.activitySector = Actividad del Sector
+administrator.technology-record.list.label.nameInventor = Nombre del inventor
+administrator.technology-record.list.label.description = Descripción
+administrator.technology-record.list.label.webSite = WebSite
+administrator.technology-record.list.label.contactEmail = Email de contacto
+administrator.technology-record.list.label.openSource = OpenSource ??
+administrator.technology-record.list.label.stars = Estrellas
+
+administrator.technology-record.form.button.create = Crear
+administrator.technology-record.form.button.update = Editar
+administrator.technology-record.form.button.delete = Eliminar

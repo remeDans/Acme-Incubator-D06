@@ -1,0 +1,39 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+investor.investment-round.list.label.ticker = ticker
+investor.investment-round.list.label.creationMoment =  fecha de creación
+investor.investment-round.list.label.kindOfRound =  tipo de ronda
+investor.investment-round.list.label.title = título
+investor.investment-round.list.label.description = descripción
+investor.investment-round.list.label.amountOfMoney = cantidad de dinero
+investor.investment-round.list.label.link = link
+
+investor.investment-round.form.label.ticker = ticker
+investor.investment-round.form.label.creationMoment =  fecha de creación
+investor.investment-round.form.label.deadline =  fecha límite
+investor.investment-round.form.label.kindOfRound =  tipo de ronda
+investor.investment-round.form.label.title = título
+investor.investment-round.form.label.description = descripción
+investor.investment-round.form.label.amountOfMoney = cantidad de dinero
+investor.investment-round.form.label.link = link
+
+investor.investment-round.form.button.workProgramme = Programa de trabajo
+investor.investment-round.form.button.accounting-records = Registros contables
+investor.investment-round.form.button.forum = Foro
+investor.investment-round.form.button.application = Solicitud
+
+entrepreneur.investment-round.form.button.return = Atrás
+
+entrepreneur.investment-round.form.label.entrepreneur = Empresario
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.username = nombre de usuario
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.name = nombre
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.surname = apellido
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.email = email

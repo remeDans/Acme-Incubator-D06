@@ -1,0 +1,40 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.inquiry.list.label.title = Title
+administrator.inquiry.list.label.creationMoment = creationMoment
+administrator.inquiry.list.label.deadline = Deadline
+administrator.inquiry.list.label.paragraphsDescription= paragraphsDescription
+administrator.inquiry.list.label.intervalMoney = intervalMoney 
+administrator.inquiry.list.label.minIntervalMoney = min interval Money
+administrator.inquiry.list.label.maxIntervalMoney = max interval Money
+administrator.inquiry.list.label.contactEmail = contactEmail
+
+
+administrator.inquiry.form.label.title = Title
+administrator.inquiry.form.label.creationMoment = creationMoment
+administrator.inquiry.form.label.deadline = Deadline
+administrator.inquiry.form.label.paragraphsDescription= paragraphsDescription
+administrator.inquiry.form.label.intervalMoney = intervalMoney
+administrator.inquiry.form.label.minIntervalMoney = min interval Money
+administrator.inquiry.form.label.maxIntervalMoney = max interval Money
+administrator.inquiry.form.label.contactEmail = contactEmail
+
+
+administrator.inquiry.form.button.return = Return
+
+
+administrator.inquiry.form.button.create = Create
+administrator.inquiry.form.button.update = Update
+administrator.inquiry.form.button.delete = Delete
+
+administrator.inquiry.error.currency.euro = The system only accepts euros as currency
+administrator.inquiry.error.Amount = The max interval money must be greater than the max interval money.
+administrator.inquiry.form.error.deadline = The date has to be future

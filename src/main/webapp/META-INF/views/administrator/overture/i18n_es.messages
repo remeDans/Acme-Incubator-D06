@@ -1,0 +1,41 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.overture.list.label.title = Título
+administrator.overture.list.label.creationMoment = fecha de creación
+administrator.overture.list.label.deadline = Deadline
+administrator.overture.list.label.paragraphsDescription= descripción
+administrator.overture.list.label.intervalMoney = intervalo de dinero
+administrator.overture.list.label.minIntervalMoney = minimo intervalo de dinero
+administrator.overture.list.label.maxIntervalMoney = máximo intervalo de dinero
+administrator.overture.list.label.contactEmail = contactEmail
+
+
+administrator.overture.form.label.title = Título
+administrator.overture.form.label.creationMoment = fecha de creación
+administrator.overture.form.label.deadline = Deadline
+administrator.overture.form.label.paragraphsDescription= descripción
+administrator.overture.form.label.intervalMoney = intervalo de dinero
+administrator.overture.form.label.minIntervalMoney = minimo intervalo de dinero
+administrator.overture.form.label.maxIntervalMoney = máximo intervalo de dinero
+administrator.overture.form.label.contactEmail = contactEmail
+
+
+administrator.overture.form.button.return = Atrás
+
+
+administrator.overture.error.currency.euro = El sistema solo acepta como moneda los euros
+administrator.overture.error.Amount = El máximo intervalo de dinero tiene que ser  mayor que el minimo intervalo de dinero. 
+administrator.overture.form.error.deadline = La fecha tiene que ser futura
+
+
+administrator.overture.form.button.create = Crear
+administrator.overture.form.button.update = Editar
+administrator.overture.form.button.delete = Eliminar

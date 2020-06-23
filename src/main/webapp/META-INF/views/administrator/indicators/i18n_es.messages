@@ -1,0 +1,7 @@
+
+
+administrator.dashboard.form.title.applications-per-day.title = Número de inscripciones por estado durante las últimos 15 días
+
+administrator.dashboard.form.label.application-pending = PENDIENTE
+administrator.dashboard.form.label.application-accepted = ACEPTADA
+administrator.dashboard.form.label.application-rejected = RECHAZADA

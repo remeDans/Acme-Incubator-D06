@@ -1,0 +1,66 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+entrepreneur.investment-round.list.label.ticker = ticker
+entrepreneur.investment-round.list.label.creationMoment =  fecha de creación
+entrepreneur.investment-round.list.label.kindOfRound =  tipo de ronda
+entrepreneur.investment-round.list.label.title = título
+entrepreneur.investment-round.list.label.description = descripción
+entrepreneur.investment-round.list.label.amountOfMoney = cantidad de dinero
+entrepreneur.investment-round.list.label.link = link
+
+entrepreneur.investment-round.form.label.ticker = ticker
+entrepreneur.investment-round.form.label.creationMoment =  fecha de creación
+entrepreneur.investment-round.form.label.deadline =  fecha límite
+entrepreneur.investment-round.form.label.kindOfRound =  tipo de ronda
+entrepreneur.investment-round.form.label.title = título
+entrepreneur.investment-round.form.label.description = descripción
+entrepreneur.investment-round.form.label.amountOfMoney = cantidad de dinero
+entrepreneur.investment-round.form.label.link = link
+
+entrepreneur.investment-round.form.button.workProgramme = Programa de trabajo
+entrepreneur.investment-round.form.button.accounting-records = Registros contables
+entrepreneur.investment-round.form.button.forum = Foro
+entrepreneur.investment-round.form.button.application = Solicitud
+
+entrepreneur.investment-round.form.button.workProgramme.create = Crear Programa de trabajo
+
+entrepreneur.investment-round.form.button.delete = Eliminar
+entrepreneur.investment-round.form.button.update = Editar
+
+entrepreneur.investment-round.form.button.return = Atrás
+
+entrepreneur.investment-round.form.button.create = Crear Ronda de inversión
+
+entrepreneur.investment-round.form.label.entrepreneur = Empresario
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.username = nombre de usuario
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.name = nombre
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.surname = apellido
+entrepreneur.investment-round.form.label.entrepreneur.userAccount.identity.email = email
+
+entrepreneur.investment-round.form.label.kindOfRound.--- = ----------
+entrepreneur.investment-round.form.label.kindOfRound.SEED = SEMILLA
+entrepreneur.investment-round.form.label.kindOfRound.ANGEL = ANGEL
+entrepreneur.investment-round.form.label.kindOfRound.SERIES-A = SERIE-A
+entrepreneur.investment-round.form.label.kindOfRound.SERIES-B = SERIE-B
+entrepreneur.investment-round.form.label.kindOfRound.SERIES-C = SERIE-C
+entrepreneur.investment-round.form.label.kindOfRound.BRIDGE = PUENTE
+
+entrepreneur.investment-round.form.label.status = estado
+
+entrepreneur.investment-round.form.label.status.DRAFT = BORRADOR
+entrepreneur.investment-round.form.label.status.PUBLISHED = PUBLICADO
+
+#Errores
+entrepreneur.investment-round.error.isSpam = Es Spam
+entrepreneur.investment-round.form.error.ticker.duplicated = El ticker no puede ser duplicado
+entrepreneur.investment-round.error.activities = Los presupuestos de actividad del programa de trabajo tienen que sumar la cantidad total de dinero en la ronda
+entrepreneur.investment-round.error.currency.euro = El sistema solo acepta como moneda los euros
+entrepreneur.investment-round.form.error.deadline = La fecha tiene que ser futura

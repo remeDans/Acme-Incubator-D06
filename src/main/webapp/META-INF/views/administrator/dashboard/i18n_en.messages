@@ -1,0 +1,27 @@
+administrator.dashboard = Dashboard
+
+
+
+administrator.dashboard.totalNumberNotices = Total number of notices:
+administrator.dashboard.totalNumberTechnologyRecords = Total number of technology records:
+administrator.dashboard.totalNumberToolRecords = Total number of tool records:
+	
+administrator.dashboard.minMoneyIntervalsActiveInquiries = Minimum of the money intervals of the active inquiries:
+administrator.dashboard.maxMoneyIntervalsActiveInquiries = Maximum of the money intervals of the active inquiries:
+administrator.dashboard.avgMoneyIntervalsActiveInquiries = Average of the money intervals of the active inquiries:
+administrator.dashboard.desvMoneyIntervalsActiveInquiries = Standard deviation of the money intervals of the active inquiries:
+	
+administrator.dashboard.minMoneyIntervalsActiveOvertures = 	 Minimum of the money intervals of the active overtures:
+administrator.dashboard.maxMoneyIntervalsActiveOvertures = 	 Maximum of the money intervals of the active overtures:
+administrator.dashboard.avgMoneyIntervalsActiveOvertures = 	 Average of the money intervals of the active overtures:
+administrator.dashboard.desvMoneyIntervalsActiveOvertures = Standard deviation of the money intervals of the active overtures:
+
+administrator.dashboard.avgNumberInventmentRoundPerEntrepreneur = Average number of investment rounds per entrepreneur:
+administrator.dashboard.avgNumberApplicationPerEntrepreneur = Average number of applications per entrepreneur:
+administrator.dashboard.avgNumberApplicationPerInvestor = Average number of applications per investor:
+
+
+administrator.dashboard.form.button.return = Return
+
+	 
+	 

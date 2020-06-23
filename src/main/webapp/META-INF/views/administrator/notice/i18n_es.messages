@@ -1,0 +1,31 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+administrator.notice.form.label.headerPicture = Foto de cabecera
+administrator.notice.form.label.title = Título
+administrator.notice.form.label.creationMoment = Momento de creación
+administrator.notice.form.label.deadline = deadline
+administrator.notice.form.label.body = Cuerpo
+administrator.notice.form.label.optionalLinks = Links Opcionales
+
+administrator.notice.form.button.create = Crear
+administrator.notice.form.button.return = Atrás
+
+administrator.notice.label.accept.create = ¿Seguro que quieres crear un aviso?
+administrator.notice.error.must-accept = debe marcar la casilla para crear un aviso
+administrator.notice.form.error.deadline = La fecha tiene que ser futura
+
+administrator.notice.list.label.headerPicture = Foto de cabecera
+administrator.notice.list.label.title = Título
+administrator.notice.list.label.creationMoment = Momento de creación
+administrator.notice.list.label.deadline = deadline
+administrator.notice.list.label.body = Cuerpo
+administrator.notice.list.label.optionalLinks = Links Opcionales

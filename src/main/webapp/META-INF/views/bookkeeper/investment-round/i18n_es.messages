@@ -1,0 +1,41 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookeeper.investment-round.list.label.ticker = ticker
+bookeeper.investment-round.list.label.creationMoment =  fecha de creación
+bookeeper.investment-round.list.label.kindOfRound =  tipo de ronda
+bookeeper.investment-round.list.label.title = título
+bookeeper.investment-round.list.label.description = descripción
+bookeeper.investment-round.list.label.amountOfMoney = cantidad de dinero
+bookeeper.investment-round.list.label.link = link
+
+bookeeper.investment-round.form.label.ticker = ticker
+bookeeper.investment-round.form.label.creationMoment =  fecha de creación
+bookeeper.investment-round.form.label.deadline =  fecha límite
+bookeeper.investment-round.form.label.kindOfRound =  tipo de ronda
+bookeeper.investment-round.form.label.title = título
+bookeeper.investment-round.form.label.description = descripción
+bookeeper.investment-round.form.label.amountOfMoney = cantidad de dinero
+bookeeper.investment-round.form.label.link = link
+
+bookeeper.investment-round.form.button.workProgramme = Programa de trabajo
+bookeeper.investment-round.form.button.accounting-records = Registros contables
+bookeeper.investment-round.form.button.forum = Foro
+bookeeper.investment-round.form.button.application = Solicitud
+
+bookeeper.investment-round.form.button.accounting-records.create = Crear Registros contables
+
+bookeeper.investment-round.form.button.return = Atrás
+
+bookeeper.investment-round.form.label.entrepreneur = Empresario
+bookeeper.investment-round.form.label.entrepreneur.userAccount.username = nombre de usuario
+bookeeper.investment-round.form.label.entrepreneur.userAccount.identity.name = nombre
+bookeeper.investment-round.form.label.entrepreneur.userAccount.identity.surname = apellido
+bookeeper.investment-round.form.label.entrepreneur.userAccount.identity.email = email

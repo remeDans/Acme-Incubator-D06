@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookeeper.message.form.label.title = title
+bookeeper.message.form.label.creationMoment = creationMoment
+bookeeper.message.form.label.optionalListTags = tags
+bookeeper.message.form.label.body = body
+bookeeper.message.form.label.creator = creator
+
+bookeeper.message.form.button.return = Return
+
+
+bookeeper.message.list.label.title = title
+bookeeper.message.list.label.creationMoment = creationMoment
+bookeeper.message.list.label.optionalListTags = tags
+bookeeper.message.list.label.body = body
+bookeeper.message.list.label.creator = creator

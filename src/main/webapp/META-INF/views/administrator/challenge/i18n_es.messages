@@ -1,0 +1,47 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.challenge.list.label.title = Título
+administrator.challenge.list.label.description = Descripción
+administrator.challenge.list.label.deadline = Deadline
+administrator.challenge.list.label.goal= Objetivo
+
+administrator.challenge.form.label.title = Título
+administrator.challenge.form.label.description = Descripción
+administrator.challenge.form.label.deadline = Deadline
+administrator.challenge.form.label.goal= Objetivo
+
+administrator.challenge.form.button.return = Atrás
+
+
+
+administrator.challenge.list.label.goalExpertLevel = Objetivo Nivel Expert
+administrator.challenge.list.label.rewardExpertLevel = Premio Nivel Expert
+administrator.challenge.list.label.goalAverageLevel = Objetivo Nivel Average
+administrator.challenge.list.label.rewardAverageLevel = Premio Nivel Average
+administrator.challenge.list.label.goalRookieLevel = Objetivo Nivel Rookie
+administrator.challenge.list.label.rewardRookieLevel = Premio Nivel Rookie
+
+administrator.challenge.form.button.create = Crear
+administrator.challenge.form.button.update = Editar
+administrator.challenge.form.button.delete = Eliminar
+
+administrator.challenge.form.label.goalExpertLevel = Objetivo Nivel Expert
+administrator.challenge.form.label.rewardExpertLevel = Premio Nivel Expert
+administrator.challenge.form.label.goalAverageLevel = Objetivo Nivel Average
+administrator.challenge.form.label.rewardAverageLevel = Premio Nivel Average
+administrator.challenge.form.label.goalRookieLevel = Objetivo Nivel Rookie
+administrator.challenge.form.label.rewardRookieLevel = Premio Nivel Rookie
+
+
+administrator.challenge.error.currency.euro = El sistema solo acepta como moneda los euros
+administrator.challenge.error.Amount = El premio expert tiene que ser  mayor que el premio average. El premio average tiene que ser mayor que el premio rookie
+administrator.challenge.form.error.deadline =  La fecha debe ser al menos un mes en el futuro.
+

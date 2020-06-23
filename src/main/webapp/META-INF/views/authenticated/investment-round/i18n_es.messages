@@ -1,0 +1,42 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.investment-round.list.label.ticker = ticker
+authenticated.investment-round.list.label.creationMoment =  fecha de creación
+authenticated.investment-round.list.label.kindOfRound =  tipo de ronda
+authenticated.investment-round.list.label.title = título
+authenticated.investment-round.list.label.description = descripción
+authenticated.investment-round.list.label.amountOfMoney = cantidad de dinero
+authenticated.investment-round.list.label.link = link
+
+authenticated.investment-round.form.label.ticker = ticker
+authenticated.investment-round.form.label.creationMoment =  fecha de creación
+authenticated.investment-round.form.label.deadline =  fecha límite
+authenticated.investment-round.form.label.kindOfRound =  tipo de ronda
+authenticated.investment-round.form.label.title = título
+authenticated.investment-round.form.label.description = descripción
+authenticated.investment-round.form.label.amountOfMoney = cantidad de dinero
+authenticated.investment-round.form.label.link = link
+
+authenticated.investment-round.form.button.workProgramme = Programa de trabajo
+authenticated.investment-round.form.button.accounting-records = Registros contables
+authenticated.investment-round.form.button.forum = Foro
+authenticated.investment-round.form.button.application = Solicitud
+
+authenticated.investment-round.form.button.return = Atrás
+
+investor.investment-round.form.button.apply = Crear Solicitud
+authenticated.investment-round.form.button.forum.create = Crear Foro
+
+authenticated.investment-round.form.label.entrepreneur = Empresario
+authenticated.investment-round.form.label.entrepreneur.userAccount.username = nombre de usuario
+authenticated.investment-round.form.label.entrepreneur.userAccount.identity.name = nombre
+authenticated.investment-round.form.label.entrepreneur.userAccount.identity.surname = apellido
+authenticated.investment-round.form.label.entrepreneur.userAccount.identity.email = email

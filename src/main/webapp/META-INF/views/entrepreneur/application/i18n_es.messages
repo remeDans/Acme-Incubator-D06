@@ -1,0 +1,41 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+entrepreneur.application.list.label.ticker = ticker
+entrepreneur.application.list.label.statement = Statement
+entrepreneur.application.list.label.creationMoment = Fecha de creación
+entrepreneur.application.list.label.status = Estado
+entrepreneur.application.list.label.justification = justificación
+entrepreneur.application.list.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+entrepreneur.application.form.label.ticker = ticker
+entrepreneur.application.form.label.statement = Statement
+entrepreneur.application.form.label.creationMoment = Fecha de creación
+entrepreneur.application.form.label.status = Estado
+entrepreneur.application.form.label.justification = justificación
+entrepreneur.application.form.label.investmentMoneyOffer = Oferta de dinero de inversión
+
+entrepreneur.application.form.label.status.accepted = ACEPTAR
+entrepreneur.application.form.label.status.rejected = RECHAZAR
+entrepreneur.application.form.label.status.pending = PENDIENTE
+	
+entrepreneur.application.form.button.return = Atrás
+
+entrepreneur.application.error.rejected.fill.justification= Las solicitudes rechazadas deben tener una justificación.
+entrepreneur.application.error.isSpam = Is Spam
+
+entrepreneur.application.form.button.update = Aceptar o rechazar solicitud
+
+entrepreneur.application.form.label.investor = Inversor
+entrepreneur.application.form.label.investor.username = nombre de usuario
+entrepreneur.application.form.label.investor.identity.name = nombre
+entrepreneur.application.form.label.investor.identity.surname = apellidos
+entrepreneur.application.form.label.investor.identity.email = email

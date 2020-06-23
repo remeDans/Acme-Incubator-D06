@@ -1,0 +1,32 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+authenticated.forum.form.label.title = Título
+
+
+authenticated.forum.form.button.return = Atrás
+
+
+authenticated.forum.list.label.title = Título
+
+authenticated.forum.form.button.messages = Mensajes
+
+authenticated.forum.form.label.creator = Creator
+
+authenticated.forum.form.button.create = Crear Foro
+authenticated.forum.form.button.create.message = Crear mensaje
+authenticated.forum.form.button.add-participant = Añadir participantes
+authenticated.forum.form.button.list-participants = Participantes
+authenticated.forum.form.button.add-message = Añadir mensaje
+
+authenticated.forum.form.button.delete = Eliminar
+
+authenticated.forum.error.isSpam = Es Spam

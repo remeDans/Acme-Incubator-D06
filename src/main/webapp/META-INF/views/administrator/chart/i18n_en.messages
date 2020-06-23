@@ -1,0 +1,15 @@
+administrator.chart = Chart
+administrator.chart.totalNumberTechnologiesGroupByActivitySector = Total number of technologies grouped by activity sector:
+administrator.chart.ratioOpensourceTechnologiesVersusClosedsourceTechnologies =  Ratio of open-source technologies versus closed-source technologies:
+administrator.chart.totalNumberToolGroupByActivitySector = Total number of tools grouped by activity sector:
+administrator.chart.ratioOpensourceToolsVersusClosedsourceTools = Ratio of open-source tools versus closed-source tools:
+
+
+administrator.chart.form.label.totalTechnologyPerSector = total technologies for each sector:
+administrator.chart.form.label.totalToolPerSector = total tools for each sector:
+
+administrator.chart.chart5 = Ratio of investment rounds grouped by kind.
+administrator.chart.chart6 = Ratio of applications grouped by status.
+
+
+administrator.chart.form.button.return = Return

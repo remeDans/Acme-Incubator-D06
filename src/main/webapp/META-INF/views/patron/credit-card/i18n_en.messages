@@ -1,0 +1,37 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+	
+patron.creditCard.form.button.return = Return
+
+patron.creditCard.form.button.create = Create
+patron.creditCard.form.button.update = Update
+patron.creditCard.form.button.delete = Delete
+
+administrator.creditCard.form.button.create.patron = Create
+administrator.creditCard.form.button.create.banner = Create
+
+patron.creditCard.form.label.holderName = holder name
+patron.creditCard.form.label.number = number
+patron.creditCard.form.label.brand = brand
+patron.creditCard.form.label.monthExpired = monthExpired
+patron.creditCard.form.label.yearExpired = yearExpired
+patron.creditCard.form.label.CVV = CVV
+
+
+patron.creditCard.form.label.brand.--- = --------
+patron.creditCard.form.label.brand.VISA = VISA
+patron.creditCard.form.label.brand.MASTERCARD = MASTERCARD
+patron.creditCard.form.label.brand.DISCOVER = DISCOVER
+patron.creditCard.form.label.brand.DINNERS = DINNERS
+patron.creditCard.form.label.brand.AMEX = AMEX
+
+
+patron.creditCard.form.error.validMonth = The month must be after the current month

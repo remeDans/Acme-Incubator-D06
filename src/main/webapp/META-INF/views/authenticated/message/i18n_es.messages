@@ -1,0 +1,30 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.message.form.label.title = título
+authenticated.message.form.label.creationMoment = fecha de creación
+authenticated.message.form.label.optionalListTags = etiquetas
+authenticated.message.form.label.body = cuerpo
+authenticated.message.form.label.creator = creador
+
+authenticated.message.form.button.return = Atrás
+
+authenticated.message.list.label.title = título
+authenticated.message.list.label.creationMoment = fecha de creación
+authenticated.message.list.label.optionalListTags = etiquetas
+authenticated.message.list.label.body = cuerpo
+authenticated.message.list.label.creator = creador
+
+authenticated.message.form.button.create = Crear
+
+authenticated.message.label.accept.create = ¿Seguro que quieres crear un aviso?
+authenticated.message.error.must-accept = debe marcar la casilla para crear un aviso
+
+authenticated.message.error.isSpam = Es Spam

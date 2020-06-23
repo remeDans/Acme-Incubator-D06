@@ -1,0 +1,45 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+investor.application.list.label.ticker = ticker
+investor.application.list.label.statement = Statement
+investor.application.list.label.creationMoment = creationMoment
+investor.application.list.label.status = status
+investor.application.list.label.justification = justification
+investor.application.list.label.investmentMoneyOffer = investmentMoneyOffer
+
+investor.application.form.label.ticker = ticker
+investor.application.form.label.statement = Statement
+investor.application.form.label.creationMoment = creationMoment
+investor.application.form.label.status = status
+investor.application.form.label.justification = justification
+investor.application.form.label.investmentMoneyOffer = investmentMoneyOffer
+
+
+investor.application.form.button.create = Create
+
+investor.application.form.button.return = Return
+
+
+investor.application.form.error.ticker-unique = The ticker cannot be duplicated
+entrepreneur.application.error.currency.euro = The system only accepts euros as currency
+investor.application.error.isSpam = Is Spam
+
+investor.application.form.label.investor = Investor
+investor.application.form.label.investor.username = username
+investor.application.form.label.investor.identity.name = name
+investor.application.form.label.investor.identity.surname = surname
+investor.application.form.label.investor.identity.email = email
+
+
+investor.application.form.button.investmentRound = Investment Round
+
+
