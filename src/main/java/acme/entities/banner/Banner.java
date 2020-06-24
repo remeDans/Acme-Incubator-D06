@@ -44,13 +44,4 @@ public class Banner extends DomainEntity {
 	@ManyToOne(optional = false)
 	private Patron				patron;
 
-	/*
-	 * //@NotNull
-	 *
-	 * @Valid
-	 *
-	 * @OneToOne(optional = true)
-	 * // private CreditCard creditCard;
-	 */
-
 }

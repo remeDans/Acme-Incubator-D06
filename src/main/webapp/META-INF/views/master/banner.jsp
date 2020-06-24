@@ -17,7 +17,7 @@
 
 <div class="rounded" style="background: <acme:message code='master.banner.background'/>" >
 <div class="text-center">
-	<img src="images/banner.png" alt="Acme Jobs, Inc."/>
+	<img src="images/banner.png" alt="Acme Incubator, Inc."/>
 	</div>
 </div>
 

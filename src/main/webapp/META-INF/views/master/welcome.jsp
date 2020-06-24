@@ -15,6 +15,12 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
+<div class="rounded">
+	<div class="text-center">
+	<img src="${banner.picture}" alt="${banner.slogan}"  height="80"/>
+	</div>
+</div>
+
 <div class="jumbotron">
 	<acme:message code="master.welcome.text"/>
 </div>
