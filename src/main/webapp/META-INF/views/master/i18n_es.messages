@@ -110,24 +110,11 @@ master.menu.patron = patrocinador
 master.menu.patron.banner.list.mine = Mi lista de banner
 master.menu.patron.banner.create = Crear Banner
 
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
 
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
-master.menu.user-account.provider = Datos de proveedor
-master.menu.user-account.become-provider = Hazte proveedor
-master.menu.user-account.consumer = Datos de consumidor
-master.menu.user-account.become-consumer = Hazte consumidor
 
 master.menu.user-account.entrepreneur = Datos del empresario
 master.menu.user-account.become-entrepreneur = Hazte empresario
