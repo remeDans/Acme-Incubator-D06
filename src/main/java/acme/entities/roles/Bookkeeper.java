@@ -4,6 +4,7 @@ package acme.entities.roles;
 import javax.persistence.Entity;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.hibernate.validator.constraints.SafeHtml.WhiteListType;
 
@@ -28,6 +29,7 @@ public class Bookkeeper extends UserRole {
 
 	@NotBlank
 	@SafeHtml(whitelistType = WhiteListType.NONE)
+	@Length(max = 1024)
 	private String				responsibilityStatement;
 
 	// Derived attributes -----------------------------------------------------

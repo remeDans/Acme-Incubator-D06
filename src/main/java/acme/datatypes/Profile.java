@@ -15,6 +15,7 @@ package acme.datatypes;
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.hibernate.validator.constraints.SafeHtml.WhiteListType;
 import org.hibernate.validator.constraints.URL;
@@ -42,6 +43,7 @@ public class Profile extends DomainDatatype {
 
 	@NotBlank
 	@SafeHtml(whitelistType = WhiteListType.NONE)
+	@Length(max = 1024)
 	private String				biography;
 
 	// Derived attributes -----------------------------------------------------

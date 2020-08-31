@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.hibernate.validator.constraints.SafeHtml.WhiteListType;
 import org.hibernate.validator.constraints.URL;
@@ -54,9 +55,12 @@ public class Notice extends DomainEntity {
 
 	@NotBlank
 	@SafeHtml(whitelistType = WhiteListType.NONE)
+	@Length(max = 1024)
 	private String				body;
 
 	@URL
+	@SafeHtml(whitelistType = WhiteListType.NONE)
+	@Length(max = 1024)
 	private String				optionalLinks;
 
 }

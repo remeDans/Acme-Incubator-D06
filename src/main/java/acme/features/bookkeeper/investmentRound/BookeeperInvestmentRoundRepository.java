@@ -35,9 +35,9 @@ public interface BookeeperInvestmentRoundRepository extends AbstractRepository {
 	@Query("select i from InvestmentRound i where i.entrepreneur.id =?1")
 	Collection<InvestmentRound> findManyByEntrepreneurId(int entrepreneurId);
 
-	@Query("select distinct(i) from AccountingRecord a join a.investmentRound i  where a.bookkeeper.id =?1")
+	@Query("select distinct(i) from AccountingRecord a join a.investmentRound i  where a.bookkeeper.id =?1 and i.status = 'PUBLISHED'")
 	Collection<InvestmentRound> findManyByBookkeeperId(int bookkeeperId);
 
-	@Query("select distinct(i) from InvestmentRound i where i.id not in (select i from AccountingRecord a join a.investmentRound i where a.bookkeeper.id =?1)")
+	@Query("select distinct(i) from InvestmentRound i where i.id not in (select i from AccountingRecord a join a.investmentRound i where a.bookkeeper.id =?1) and i.status = 'PUBLISHED'")
 	Collection<InvestmentRound> findManyNOByBookkeeperId(int bookkeeperId);
 }
