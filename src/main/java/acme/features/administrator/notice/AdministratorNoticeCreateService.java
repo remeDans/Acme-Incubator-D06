@@ -12,11 +12,15 @@
 
 package acme.features.administrator.notice;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.web.util.UrlUtils;
 import org.springframework.stereotype.Service;
 
 import acme.entities.notice.Notice;
@@ -104,6 +108,14 @@ public class AdministratorNoticeCreateService implements AbstractCreateService<A
 			//calendar.add(Calendar.DAY_OF_MONTH,7);
 			minimumDeadline = calendar.getTime();
 			errors.state(request, entity.getDeadline().after(minimumDeadline), "deadline", "administrator.notice.form.error.deadline");
+		}
+
+		if (!errors.hasErrors("optionalLinks") && !entity.getOptionalLinks().isEmpty()) {
+			boolean isURLs;
+			List<String> optLinks = new ArrayList<>();
+			optLinks = Arrays.asList(entity.getOptionalLinks().split(","));
+			isURLs = optLinks.stream().allMatch(x -> UrlUtils.isAbsoluteUrl(x.trim()));
+			errors.state(request, isURLs, "optionalLinks", "administrator.notice.error.NotUrls");
 		}
 
 	}

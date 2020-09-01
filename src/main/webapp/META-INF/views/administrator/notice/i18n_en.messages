@@ -29,3 +29,5 @@ administrator.notice.list.label.deadline = deadline
 administrator.notice.list.label.body = body
 administrator.notice.list.label.optionalLinks = optionalLinks
 
+
+administrator.notice.error.NotUrls = The field must contain URLs

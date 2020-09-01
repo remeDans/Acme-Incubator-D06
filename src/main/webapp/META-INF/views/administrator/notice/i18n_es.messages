@@ -29,3 +29,6 @@ administrator.notice.list.label.creationMoment = Momento de creación
 administrator.notice.list.label.deadline = deadline
 administrator.notice.list.label.body = Cuerpo
 administrator.notice.list.label.optionalLinks = Links Opcionales
+
+
+administrator.notice.error.NotUrls = El campo debe contener URLs

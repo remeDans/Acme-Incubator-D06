@@ -58,7 +58,6 @@ public class Notice extends DomainEntity {
 	@Length(max = 1024)
 	private String				body;
 
-	@URL
 	@SafeHtml(whitelistType = WhiteListType.NONE)
 	@Length(max = 1024)
 	private String				optionalLinks;
