@@ -922,19 +922,44 @@
 
 	<bean id="banner01" class="acme.entities.banner.Banner">
 		<property name="picture"
-			value="https://www.hola.com/imagenes/estar-bien/20180831128704/ronroneo-gatos-causas/0-595-638/gato-ronroneo-1-t.jpg" />
-		<property name="slogan" value="Un gato very guapo" />
-		<property name="targetUrl" value="https://www.mundogatos.com/foros" />
+			value="https://i.imgur.com/8YcXhS0.png" />
+		<property name="slogan" value="WWF" />
+		<property name="targetUrl" value="https://www.wwf.es/" />
 		<property name="patron" ref="patron1Patron" />
 	</bean>
 	
 		<bean id="banner02" class="acme.entities.banner.Banner">
 		<property name="picture"
-			value="https://www.hola.com/imagenes/estar-bien/20180831128704/ronroneo-gatos-causas/0-595-638/gato-ronroneo-1-t.jpg" />
-		<property name="slogan" value="Un gato very guapo" />
-		<property name="targetUrl" value="https://www.mundogatos.com/foros" />
+			value="https://i.imgur.com/NGLSjk6.png" />
+		<property name="slogan" value="CHANGE" />
+		<property name="targetUrl" value="https://www.change.org/" />
 		<property name="patron" ref="patron1Patron" />
 	</bean>
+	
+
+	 <bean id="banner3" class="acme.entities.banner.Banner">
+<property name="picture" value="https://i.imgur.com/2eVF1HG.png"/>
+<property name="slogan" value="AFOPRODEI"/>
+<property name="targetUrl" value="https://www.afoprodei.com/"/> 
+<property name="patron" ref="patron1Patron" />
+</bean>
+
+
+	 <bean id="banner4" class="acme.entities.banner.Banner">
+<property name="picture" value="https://i.imgur.com/fihihcF.png"/>
+<property name="slogan" value="EL GANCHO"/>
+<property name="targetUrl" value="https://fundacionelgancho.org/"/>
+<property name="patron" ref="patron1Patron" />
+</bean>
+
+
+	 <bean id="banner5" class="acme.entities.banner.Banner">
+<property name="picture" value="https://i.imgur.com/MtBRoNP.png"/>
+<property name="slogan" value="MEDECINS SANS FRONTIERES"/>
+<property name="targetUrl" value="https://www.msf.fr//"/>
+<property name="patron" ref="patron1Patron" />
+</bean>
+	
 	
 	
 	<!-- InvestmentRound -->

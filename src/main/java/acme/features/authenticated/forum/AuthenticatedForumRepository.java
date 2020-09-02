@@ -18,6 +18,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.forum.Forum;
+import acme.entities.participant.Participant;
 import acme.framework.entities.Authenticated;
 import acme.framework.repositories.AbstractRepository;
 
@@ -41,5 +42,8 @@ public interface AuthenticatedForumRepository extends AbstractRepository {
 
 	@Query("select a from Authenticated a where a.id = ?1")
 	Authenticated findOneAuthenticatedById(int id);
+
+	@Query("select p from Participant p where p.forum.id = ?1")
+	Collection<Participant> findForumParticipant(int forumId);
 
 }

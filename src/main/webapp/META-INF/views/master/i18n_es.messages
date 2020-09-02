@@ -69,7 +69,7 @@ master.menu.administrator.technology-record.list = Listar Tecnología
 master.menu.administrator.technology-record.create = Crear Tecnología
 
 master.menu.administrator.tool-record.list = Listar Herramientas
-master.menu.administrator.tool-record.create = Create Herramienta
+master.menu.administrator.tool-record.create = Crear Herramienta
 
 master.menu.administrator.challenge.list = Listar Desafío
 master.menu.administrator.challenge.create = Crear Desafío

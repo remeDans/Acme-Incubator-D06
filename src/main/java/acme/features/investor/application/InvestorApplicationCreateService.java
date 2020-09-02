@@ -18,6 +18,7 @@ import acme.features.investor.investmentRound.InvestorInvestmentRoundRepository;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractCreateService;
 
 @Service
@@ -40,9 +41,18 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 
 		int investmentId = request.getModel().getInteger("investmentId");
 		InvestmentRound investmentRound = this.investmentRoundRepository.findMOneById(investmentId);
+
+		boolean result2;
+		Investor investor;
+		Principal principal;
+
+		investor = this.repository.findOneByInvestorId(request.getPrincipal().getActiveRoleId());
+		principal = request.getPrincipal();
+		result2 = investor.getUserAccount().getId() == principal.getAccountId();
+
 		boolean result = investmentRound.getStatus().equals("PUBLISHED");
 
-		return result;
+		return result && result2;
 	}
 
 	@Override

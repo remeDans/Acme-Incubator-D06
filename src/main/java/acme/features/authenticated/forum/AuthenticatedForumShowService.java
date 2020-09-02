@@ -12,11 +12,14 @@
 
 package acme.features.authenticated.forum;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.forum.Forum;
 import acme.entities.message.Message;
+import acme.entities.participant.Participant;
 import acme.features.authenticated.message.AuthenticatedMessageRepository;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -71,6 +74,11 @@ public class AuthenticatedForumShowService implements AbstractShowService<Authen
 		forumId = entity.getId();
 		f = this.repository.findOneById(forumId);
 
+		Authenticated creatorForum = f.getCreator();
+		Integer creatorForumId = creatorForum.getUserAccount().getId();
+
+		Principal principal = request.getPrincipal();
+
 		//------------------------------------
 
 		model.setAttribute("hasMessages", false);
@@ -86,13 +94,21 @@ public class AuthenticatedForumShowService implements AbstractShowService<Authen
 		//------------------------------------------
 		model.setAttribute("iCreator", false);
 
-		Authenticated creatorForum = f.getCreator();
-		Integer creatorForumId = creatorForum.getUserAccount().getId();
-
-		Principal principal = request.getPrincipal();
-
 		if (creatorForumId.equals(principal.getAccountId())) {
 			model.setAttribute("iCreator", true);
+		}
+
+		//------------------------------------
+
+		model.setAttribute("isParticipant", false);
+
+		Collection<Participant> participants = this.repository.findForumParticipant(f.getId());
+
+		for (Participant p : participants) {
+			Integer pId = p.getAuthenticated().getUserAccount().getId();
+			if (pId.equals(principal.getAccountId())) {
+				model.setAttribute("isParticipant", true);
+			}
 		}
 
 		//------------------------------------

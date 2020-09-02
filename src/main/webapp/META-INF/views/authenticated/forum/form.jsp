@@ -21,7 +21,7 @@
 	
 	<jstl:if test="${command != 'create'}">
 		<acme:form-textbox code="authenticated.forum.form.label.creator" path="creator.userAccount.username" readonly="true"/>
-	<acme:form-submit code="authenticated.forum.form.button.add-message" action="/authenticated/message/create?forumId=${id}" method="get" />
+	<acme:form-submit test="${isParticipant}" code="authenticated.forum.form.button.add-message" action="/authenticated/message/create?forumId=${id}" method="get" />
 	<acme:form-submit test="${iCreator}" code="authenticated.forum.form.button.add-participant" action="/authenticated/participant/create?forumId=${id}" method="get" />
 	<acme:form-submit test="${iCreator}" code="authenticated.forum.form.button.list-participants" action="/authenticated/participant/list?id=${id}" method="get" />
 	<acme:form-submit test="${hasMessages}" method="get" code="authenticated.forum.form.button.messages" action="/authenticated/message/LIST_MESSAGES_FORUM?forumId=${id}" />

@@ -52,7 +52,15 @@ public class EntrepreneurInvestmentRoundCreateService implements AbstractCreateS
 	public boolean authorise(final Request<InvestmentRound> request) {
 		assert request != null;
 
-		return true;
+		boolean result;
+		Entrepreneur entrepreneur;
+		Principal principal;
+
+		entrepreneur = this.repository.findOneEntrepreneurByEntrepreneurId(request.getPrincipal().getActiveRoleId());
+		principal = request.getPrincipal();
+		result = entrepreneur.getUserAccount().getId() == principal.getAccountId();
+
+		return result;
 	}
 
 	@Override

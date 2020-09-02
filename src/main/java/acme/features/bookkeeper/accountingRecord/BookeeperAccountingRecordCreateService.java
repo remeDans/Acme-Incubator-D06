@@ -48,7 +48,15 @@ public class BookeeperAccountingRecordCreateService implements AbstractCreateSer
 	public boolean authorise(final Request<AccountingRecord> request) {
 		assert request != null;
 
-		return true;
+		boolean result;
+		Bookkeeper b;
+		Principal principal;
+
+		b = this.repository.findOneBookkeepeByBookkeeperId(request.getPrincipal().getActiveRoleId());
+		principal = request.getPrincipal();
+		result = b.getUserAccount().getId() == principal.getAccountId();
+
+		return result;
 	}
 
 	@Override

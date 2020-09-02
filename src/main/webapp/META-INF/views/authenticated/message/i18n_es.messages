@@ -24,7 +24,7 @@ authenticated.message.list.label.creator = creador
 
 authenticated.message.form.button.create = Crear
 
-authenticated.message.label.accept.create = ¿Seguro que quieres crear un aviso?
-authenticated.message.error.must-accept = debe marcar la casilla para crear un aviso
+authenticated.message.label.accept.create = ¿Seguro que quieres crear un mensaje?
+authenticated.message.error.must-accept = debe marcar la casilla para crear un mensaje
 
 authenticated.message.error.isSpam = Es Spam

@@ -31,7 +31,7 @@ public class EmailFormatter implements Formatter<Email> {
 	}
 
 	@Override
-	public Email parse(final String text, final Locale locale) throws ParseException {
+	public Email parse(String text, Locale locale) throws ParseException {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -43,7 +43,7 @@ public class EmailFormatter implements Formatter<Email> {
 	 * assert locale != null;
 	 *
 	 * Email result;
-	 * String countryCodeRegex, areaCodeRegex, numberRegex, phoneRegex;
+	 * String displayNameText, userText, domainNameText, domainExtensionText;
 	 * Pattern pattern;
 	 * Matcher matcher;
 	 * String errorMessage;
@@ -51,17 +51,17 @@ public class EmailFormatter implements Formatter<Email> {
 	 * int countryCode;
 	 * String areaCode, number;
 	 *
-	 * countryCodeRegex = "\\+\\d{1,3}";
-	 * areaCodeRegex = "\\d{1,6}";
-	 * numberRegex = "\\d{1,9}([\\s.]\\d{1,9}){0,5}";
+	 * displayNameText = "\\+\\d{1,3}";
+	 * userText = "\\d{1,6}";
+	 * domainNameText = "\\d{1,9}([\\s.]\\d{1,9}){0,5}";
 	 * //phoneRegex = String.format("^\\s*(?<CC>)%1$s)(\\s+\\((?<AC>%")
-	 * phoneRegex = String.format(//
+	 * emailRegex = String.format(//
 	 * "^\\s*(?<CC>%1$s)(\\s+\\((?<AC>%2$s)\\)\\s+|\\s+|\\s+)(?<N>%3$s)\\s*$", countryCodeRegex, //
 	 * areaCodeRegex, //
 	 * numberRegex //
 	 * );
 	 *
-	 * pattern = Pattern.compile(phoneRegex, Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
+	 * pattern = Pattern.compile(emailRegex, Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
 	 * matcher = pattern.matcher(text);
 	 *
 	 * if (!matcher.find()) {

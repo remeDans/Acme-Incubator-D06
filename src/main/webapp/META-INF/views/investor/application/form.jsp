@@ -21,8 +21,17 @@
 	<jstl:if test="${command == 'create'}" >
 	<input name = "creationMoment" type="hidden"/>
 	</jstl:if>
+	
+	
+		<jstl:if test="${command == 'show' || command == 'update'}">
+		<acme:form-textbox code="investor.application.form.label.ticker" path="ticker" placeholder="SSS-YY-NNNNNN" readonly="true"/>
+	</jstl:if>
 
-	<acme:form-textbox code="investor.application.form.label.ticker" path="ticker"  placeholder="SSS-YY-NNNNNN"/>
+	<jstl:if test="${command == 'create'}" >
+	<acme:form-textbox code="investor.application.form.label.ticker" path="ticker" placeholder="SSS-YY-NNNNNN" readonly="false"/>
+	</jstl:if>
+
+	
 	<acme:form-textarea code="investor.application.form.label.statement" path="statement"/>
 	
 	<jstl:if test="${command != 'create'}" >

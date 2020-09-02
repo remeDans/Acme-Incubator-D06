@@ -19,9 +19,17 @@
 
 <acme:form >
 
-	<acme:form-textbox code="entrepreneur.investment-round.form.label.ticker" path="ticker" placeholder="SSS-YY-NNNNNN"/>
+	<jstl:if test="${command == 'show' || command == 'update'}">
+		<acme:form-textbox code="entrepreneur.investment-round.form.label.ticker" path="ticker" placeholder="SSS-YY-NNNNNN" readonly="true"/>
+	</jstl:if>
+
+	<jstl:if test="${command == 'create'}" >
+	<acme:form-textbox code="entrepreneur.investment-round.form.label.ticker" path="ticker" placeholder="SSS-YY-NNNNNN" readonly="false"/>
+	</jstl:if>
+	
 	<jstl:if test="${command != 'create'}" >
 	<acme:form-moment code="entrepreneur.investment-round.form.label.creationMoment" path="creationMoment" readonly="true"/>
+
 	</jstl:if>
 	<acme:form-moment code="entrepreneur.investment-round.form.label.deadline" path="deadline" readonly="false"/>
 	<!--<acme:form-textbox code="entrepreneur.investment-round.form.label.kindOfRound" path="kindOfRound" />-->

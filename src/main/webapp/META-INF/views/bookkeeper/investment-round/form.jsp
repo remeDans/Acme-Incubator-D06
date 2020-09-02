@@ -35,7 +35,7 @@
 
 <acme:form-submit test="${hasActivities}" method="get" code="bookeeper.investment-round.form.button.workProgramme" action="/bookkeeper/activity/LIST_ACTIVITY_INVESTMENT_ROUND?id=${id}" />
 <acme:form-submit test="${hasAccountingRecords}" method="get" code="bookeeper.investment-round.form.button.accounting-records" action="/bookkeeper/accounting-record/LIST_ACCOUNTING_RECORD_INVESTMENT_ROUND?investmentId=${id}" />
-<acme:form-submit test="${!hasAccountingRecords}" method="get" code="bookeeper.investment-round.form.button.accounting-records.create" action="/bookkeeper/accounting-record/create?investmentId=${id}" />
+<acme:form-submit method="get" code="bookeeper.investment-round.form.button.accounting-records.create" action="/bookkeeper/accounting-record/create?investmentId=${id}" />
 <acme:form-submit test="${hasForum}" method="get" code="bookeeper.investment-round.form.button.forum" action="/bookkeeper/forum/SHOW_FORUM_INVESTMENT_ROUND?investmentId=${id}" />
 <!--<acme:form-submit test="${hasApplication}" method="get" code="bookeeper.investment-round.form.button.application" action="/bookkeeper/application/SHOW_APPLICATION_INVESTMENT_ROUND?investmentId=${id}" />-->
 

@@ -18,6 +18,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.creditCard.CreditCard;
+import acme.entities.roles.Patron;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -34,5 +35,8 @@ public interface PatronCreditCardRepository extends AbstractRepository {
 
 	@Query("select c from CreditCard c where c.patron.id =?1")
 	CreditCard findOneByPatronId(int id);
+
+	@Query("select p from Patron p where p.id =?1")
+	Patron findOneByIdPatron(int id);
 
 }
