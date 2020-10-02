@@ -1,4 +1,8 @@
-# README.txt
+Web realizada para la asignatura de Diseño y Pruebas 1 del grado de Ingenieía del Software de la Universidad de Sevilla.
+La web está realizada con una plantilla para dicha asignatura.
+
+---------------------------------------------------------------------------------------------------------------------------
+
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
