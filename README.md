@@ -6,8 +6,7 @@ Para la realización de esta web se han utilizado varias tecnologías como:
 - Spring
 - JPA
 - MySql
-- Hibernate
-entre otros
+- Hibernate, entre otros
 
 ---------------------------------------------------------------------------------------------------------------------------
 
