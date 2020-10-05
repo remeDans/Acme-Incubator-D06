@@ -13,7 +13,6 @@ entre otros
 
 ## Copyright (c) 2019 Rafael Corchuelo.
 
-In keeping with the traditional purpose of furthering education and research, it is the policy of the copyright owner to permit non-commercial use and redistribution of
-this software. It has been tested carefully, but it is not guaranteed for any particular purposes.  The copyright owner does not offer any warranties or representations, nor do they accept any liabilities with respect to them.
+De acuerdo con el propósito tradicional de promover la educación y la investigación, es política del propietario de los derechos de autor permitir el uso no comercial y la redistribución de este software. Ha sido probado cuidadosamente, pero no está garantizado para ningún propósito en particular. El propietario de los derechos de autor no ofrece ninguna garantía o representación, ni acepta ninguna responsabilidad con respecto a ellos.
 
-This is the Starter-Project project, which is intended to be a core learning asset for the students who have enroled the Design and Testing subject of the Software Engineering curriculum of the University of Sevilla.  This project provides a template our students can use to get their projects up and running very quickly.
+Se trata del proyecto Starter-Project, que pretende ser un activo fundamental para el aprendizaje de los alumnos que hayan cursado la asignatura Diseño y Testing del plan de estudios de Ingeniería de Software de la Universidad de Sevilla. Este proyecto proporciona una plantilla que nuestros estudiantes pueden utilizar para poner en marcha sus proyectos rápidamente.
