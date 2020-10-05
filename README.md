@@ -4,7 +4,10 @@ La web está realizada con una plantilla para dicha asignatura.
 
 Para la realización de esta web se han utilizado varias tecnologías como:
 - Spring
+- JPA
+- MySql
 - Hibernate
+entre otros
 
 ---------------------------------------------------------------------------------------------------------------------------
 
